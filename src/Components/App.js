@@ -15,12 +15,12 @@ import HeatmapChart from './HeatmapChart/HeatmapChart'
 // - checkbox: wire frame enabled
 
 const App = (props) => {
-    const [columns, setColumns] = useState(100)
-    const [rows, setRows] = useState(100)
+    const [columns, setColumns] = useState(1000)
+    const [rows, setRows] = useState(1000)
     const [wireframe, setWireframe] = useState(false)
     const [cursor, setCursor] = useState(true)
     const [cursorInterpolation, setCursorInterpolation] = useState(true)
-    const [legend, setLegend] = useState(true)
+    const [legend, setLegend] = useState(false)
     const [interpolation, setInterpolation] = useState(true)
     const [dataGenerator, setDataGenerator] = useState('waterdrops')
 

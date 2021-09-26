@@ -6,6 +6,7 @@
     padding-bottom: 16px;
     width: calc(100vw - 32px);
     min-height: calc(100vh - 32px);
+    overflow-x: hidden;
 
     background-color: rgba(10, 10, 10);
     color: rgba(230, 230, 200);
