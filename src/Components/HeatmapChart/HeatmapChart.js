@@ -61,8 +61,6 @@ const HeatmapChart = (props) => {
                 })
             }))
 
-        console.log(chart.getTitleFont())
-
         setHeatmap(heatmap)
 
         return () => {
