@@ -1,0 +1,7 @@
+.dropdownfield-container {
+    display: flex;
+    justify-content: space-between;
+}
+.dropdownfield-input {
+    max-width: 128px;
+}

@@ -1,0 +1,7 @@
+.numberfield-container {
+    display: flex;
+    justify-content: space-between;
+}
+.numberfield-input {
+    max-width: 80px;
+}
