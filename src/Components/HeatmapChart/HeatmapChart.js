@@ -31,9 +31,6 @@ const HeatmapChart = (props) => {
         // Required for chart looking initially correct in React context.
         chart.engine.layout()
 
-        // TODO IMMEDIATE: layout does not fully set chart size correctly.
-        // Mouse location with cursor etc is slightly off !
-
         // Return function that will destroy the chart completely.
         return () => {
             chart.dispose()
