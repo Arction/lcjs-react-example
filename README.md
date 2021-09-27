@@ -6,6 +6,8 @@ More information about LightningChart<sup>&#174;</sup> JS can be found from our 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The application is hosted with GitHub Pages and can be seen in action [here](https://arction.github.io/lcjs-react-example/)
+
 ## Available Scripts
 
 In the project directory, you can run:
